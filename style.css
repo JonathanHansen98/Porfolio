@@ -12,11 +12,12 @@
 
 /* Navbar */
 
-.navbar-toggler {
-  border-color: white;
+.navbar-toggler:focus {
+outline-color: white;
+opacity: 100%;
 }
 
-.navbar-brand,
+.navbar-brand, 
 .nav-link {
   color: white;
   font-family: "Comfortaa";
@@ -42,31 +43,24 @@ h1 {
   position: relative;
   top: 50px;
 }
+
+.about-card {
+  width: 75px;
+}
+
 /* Projects Section */
 
-.card {
-  margin: 25px;
+.card-main {
+ 
 }
 
 /* Contact Section */
-
-.contact-page {
-  height: 100vh;
-}
-#myBtn {
-  position: sticky;
-  bottom: 50px;
-  right: 50px;
-  display: none;
-  color: white;
-  background-color: black;
-  border-color: black;
-  width: 125px;
+.icons {
+  width: 50px;
 }
 
-#myBtn:hover {
-  background-color: #363434;
-  border-color: white;
+.filler {
+  height: 89px;
 }
 
 @media only screen and (min-width: 500px) {
@@ -86,11 +80,6 @@ h1 {
 }
 
 @media only screen and (max-width: 501px) {
-  .background {
-    background-image: none;
-    background-color: darkgray;
-    height: 300px;
-  }
 
   .devlogo {
     padding-right: 0px;
