@@ -1,0 +1,18 @@
+
+h1 {
+    font-family: "Comfortaa";
+    color: black;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .about {
+    position: relative;
+    top: 50px;
+  }
+  
+  .about-card {
+    width: 75px;
+  }
+  

@@ -1,15 +1,5 @@
 /* Zeroing out default padding */
 
-.container-fluid,
-.col-12 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-.row {
-  margin-left: 0px;
-  margin-right: 0p;
-}
-
 /* Navbar */
 
 .navbar-toggler:focus {
@@ -29,6 +19,16 @@ opacity: 100%;
 
 /* Home Section */
 
+.devlogo{
+  width: 100%;
+  margin-top: 50px;
+}
+
+.homeSpacer {
+  height: 200px;
+}
+
+
 /* About Section */
 
 h1 {
@@ -46,51 +46,4 @@ h1 {
 
 .about-card {
   width: 75px;
-}
-
-/* Projects Section */
-
-.card-main {
- 
-}
-
-/* Contact Section */
-.icons {
-  width: 50px;
-}
-
-.filler {
-  height: 89px;
-}
-
-@media only screen and (min-width: 500px) {
-  .background {
-    background: url(./portfoliobackground.jpg) no-repeat center fixed;
-    height: 600px;
-    position: relative;
-    padding-right: 0px;
-  }
-
-  .img {
-    width: 500px;
-    position: absolute;
-    right: 5%;
-    top: 12%;
-  }
-}
-
-@media only screen and (max-width: 501px) {
-
-  .devlogo {
-    padding-right: 0px;
-  }
-
-  .img {
-    display: block;
-    position: absolute;
-    top: 50px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
