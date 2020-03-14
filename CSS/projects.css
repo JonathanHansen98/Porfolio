@@ -30,10 +30,26 @@ body {
 
 h1 {
   font-family: "Comfortaa";
-  margin: 20px 0px 20px 0px;
+  color: black;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 label {
   color: black;
   font-family: "Comfortaa";
 }
+
+.card-img-top {
+  height: 200px;
+}
+
+.card {
+  padding: 20px;
+}
+
+p, h5 {
+  font-family: "Comfortaa";
+}
+

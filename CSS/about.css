@@ -45,3 +45,7 @@ p {
   font-size: 14pt;
   color: black;
 }
+
+.card {
+  padding: 20px;
+}
